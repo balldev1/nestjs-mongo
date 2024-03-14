@@ -25,7 +25,7 @@ imports: [MongooseModule.forRoot('mongodb://localhost:27017/nest')],
 
 ?authSource=admin
 
-nest g resource products
+nest g resource <name>
 
 ประกาศ schema 
 return document ออกมา
