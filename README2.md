@@ -7,3 +7,22 @@ nest generate controller <name>
 nest generate service <name>
 
 nest generate module <name>
+
+npm i @nestjs/mongoose mongoose
+
+docker ps
+
+docker exec -it <names docker> bash
+
+mongosh -u root -p
+
+<password>;
+
+npm i @nestjs/mongoose mongoose
+
+@Module({
+imports: [MongooseModule.forRoot('mongodb://localhost:27017/nest')],
+
+?authSource=admin
+
+nest g resource products
