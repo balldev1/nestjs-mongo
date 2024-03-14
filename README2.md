@@ -31,3 +31,9 @@ nest g resource <name>
 return document ออกมา
 เอา schema import module เพื่อเรียกใช้งานเข้ากับ mongo
 service inject model document
+
+export ข้ามกัน
+จะใช้ product
+export product.module 
+order.module เรียกใช้ ให้ import 
+inject ไปเรียกใช้ ที่ service
