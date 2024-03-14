@@ -26,3 +26,8 @@ imports: [MongooseModule.forRoot('mongodb://localhost:27017/nest')],
 ?authSource=admin
 
 nest g resource products
+
+ประกาศ schema 
+return document ออกมา
+เอา schema import module เพื่อเรียกใช้งานเข้ากับ mongo
+service inject model document
